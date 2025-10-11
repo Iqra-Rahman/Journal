@@ -4,7 +4,7 @@ import Header from '../components/Header.jsx'
 
 const Home = () => {
   return (
-    <div className='flex flex-col items-center justify-between min-h-screen bg-[url("/bg_img.png")] bg-cover bg-center'>
+    <div className='flex flex-col items-center justify-between min-h-screen bg-cover bg-center'>
       <Navbar/>
       <Header/>
     </div>
