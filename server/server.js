@@ -12,7 +12,7 @@ const app = express();
 const port = process.env.PORT || 5000;
 connectDB(); 
 
-const allowedOrigins = ['http://localhost:5173']
+const allowedOrigins = ['http://localhost:5173', 'https://journal-three-sigma.vercel.app']
 
 app.use(cors({origin: allowedOrigins, credentials: true}));
 app.use(express.json());
